@@ -833,7 +833,7 @@ When you query Parquet files using Synapse SQL Serverless, you can explore the d
 
     ![The Storage accounts section is expanded with the context menu visible on the asadatalake{SUFFIX} account with the Select TOP 100 rows option highlighted.](media/data-hub-parquet-select-rows.png "Querying parquet data in SQL Serverless")
 
-5. Ensure **Buit-in** is selected in the **Connect to** dropdown list above the query window, then run the query. Data is loaded by the Synapse SQL Serverless endpoint and processed as if was coming from any regular relational database.
+5. Ensure **Built-in** is selected in the **Connect to** dropdown list above the query window, then run the query. Data is loaded by the Synapse SQL Serverless endpoint and processed as if was coming from any regular relational database.
 
     ![The SQL on-demand connection is highlighted on the query window toolbar.](media/sql-on-demand-selected-1.png "SQL on-demand")
 
