@@ -2056,7 +2056,7 @@ Users should avoid a workload management solution that configures 100% workload 
 
 1. Navigate to the **Develop** hub.
 
-    ![The Develop menu item is highlighted.](media/develop-hub.png "Develop hub")
+    ![The Develop menu item is highlighted.](media/develop-hub-1.png "Develop hub")
 
 2. From the **Develop** menu, select the + button and choose **SQL Script** from the context menu.
 
@@ -2171,7 +2171,7 @@ All logins to your data warehouse are logged to `sys.dm_pdw_exec_sessions`. This
 
 1. Navigate to the **Develop** hub.
 
-    ![The Develop menu item is highlighted.](media/develop-hub.png "Develop hub")
+    ![The Develop menu item is highlighted.](media/develop-hub-1.png "Develop hub")
 
 2. From the **Develop** menu, select the + button and choose **SQL Script** from the context menu.
 
