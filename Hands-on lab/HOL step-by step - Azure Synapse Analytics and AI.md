@@ -833,9 +833,9 @@ When you query Parquet files using Synapse SQL Serverless, you can explore the d
 
     ![The Storage accounts section is expanded with the context menu visible on the asadatalake{SUFFIX} account with the Select TOP 100 rows option highlighted.](media/data-hub-parquet-select-rows.png "Querying parquet data in SQL Serverless")
 
-5. Ensure **SQL on-demand** is selected in the **Connect to** dropdown list above the query window, then run the query. Data is loaded by the Synapse SQL Serverless endpoint and processed as if was coming from any regular relational database.
+5. Ensure **Buit-in** is selected in the **Connect to** dropdown list above the query window, then run the query. Data is loaded by the Synapse SQL Serverless endpoint and processed as if was coming from any regular relational database.
 
-    ![The SQL on-demand connection is highlighted on the query window toolbar.](media/sql-on-demand-selected.png "SQL on-demand")
+    ![The SQL on-demand connection is highlighted on the query window toolbar.](media/sql-on-demand-selected-1.png "SQL on-demand")
 
 6. Modify the SQL query to perform aggregates and grouping operations to better understand the data. Replace the query with the following, making sure that the file path in **OPENROWSET** matches your current file path, be sure to substitute `asadatalake{SUFFIX}` for the appropriate value in your environment:
 
@@ -944,9 +944,9 @@ A common format for exporting and storing data is with text based files. These c
 
 1. Create a new SQL script by selecting **Develop** from the left menu, then in the **Develop** blade, expanding the **+** button and selecting **SQL script**.
 
-2. Ensure **SQL on-demand** is selected in the **Connect to** dropdown list above the query window.
+2. Ensure **Built-in** is selected in the **Connect to** dropdown list above the query window.
 
-    ![The SQL on-demand connection is highlighted on the query window toolbar.](media/sql-on-demand-selected.png "SQL on-demand")
+    ![The SQL on-demand connection is highlighted on the query window toolbar.](media/sql-on-demand-selected-1.png "SQL on-demand")
 
 3. In this scenario, we will be querying into the CSV file that was used to populate the product table. This file is located in the `asadatalake{SUFFIX}` account at: **wwi-02/data-generators/generator-product.csv**. We will select all data from this file. Copy and paste the following query into the query window and select **Run** from the query window toolbar menu. Remember to replace `asadatalake{SUFFIX}` with your storage account name.
 
@@ -1002,9 +1002,9 @@ A common format for exporting and storing data is with text based files. These c
 
 1. Create a new SQL script by selecting **Develop** from the left menu, then in the **Develop** blade, expanding the **+** button and selecting **SQL script**.
 
-2. Ensure **SQL on-demand** is selected in the **Connect to** dropdown list above the query window.
+2. Ensure **Built-in** is selected in the **Connect to** dropdown list above the query window.
 
-    ![The SQL on-demand connection is highlighted on the query window toolbar.](media/sql-on-demand-selected.png "SQL on-demand")
+    ![The SQL on-demand connection is highlighted on the query window toolbar.](media/sql-on-demand-selected-1.png "SQL on-demand")
 
 3. Replace the query with the following, remember to replace `asadatalake{SUFFIX}` with the name of your storage account:
 
