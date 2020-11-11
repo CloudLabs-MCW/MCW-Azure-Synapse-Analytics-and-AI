@@ -1952,7 +1952,7 @@ Setting importance in Synapse SQL for Azure Synapse allows you to influence the 
 
 1. Navigate to the **Develop** hub.
 
-    ![The Develop menu item is highlighted.](media/develop-hub.png "Develop hub")
+    ![The Develop menu item is highlighted.](media/develop-hub-1.png "Develop hub")
 
 2. From the **Develop** menu, select the + button and choose **SQL Script** from the context menu.
 
