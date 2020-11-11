@@ -872,7 +872,7 @@ When you query Parquet files using Synapse SQL Serverless, you can explore the d
 
 ### Task 2: Query sales Parquet data with Azure Synapse Spark
 
-1. Select **Data** from the left menu, select the **Linked** tab, then browse to the data lake storage account `asadatalake{SUFFIX}` to  **wwi-02/sale-small/Year=2010/Quarter=Q4/Month=12/Day=20101231**, then right-click the Parquet file and select New notebook.
+1. Select **Data** from the left menu, select the **Linked** tab, then browse to the data lake storage account `asadatalake{SUFFIX}` to  **wwi-02/sale-small/Year=2010/Quarter=Q4/Month=12/Day=20101231**, then right-click the Parquet file and select New notebook and then select Load to DataFrame.
 
     ![The Parquet file is displayed with the New notebook menu item highlighted.](media/new-spark-notebook-sales-1.png "New notebook")
 
@@ -880,7 +880,7 @@ When you query Parquet files using Synapse SQL Serverless, you can explore the d
 
 3. Attach the notebook to a Spark pool.
 
-    ![The Spark pool list is displayed.](media/attach-spark-pool.png "Attach to Spark pool")
+    ![The Spark pool list is displayed.](media/attach-spark-pool-1.png "Attach to Spark pool")
 
 4. Select **Run all** on the notebook toolbar to execute the notebook.
 
