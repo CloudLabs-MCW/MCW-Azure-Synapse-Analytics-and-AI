@@ -1848,6 +1848,8 @@ In this exercise, you will create multiple machine learning models. You will lea
     |--------------|---------------|
     | Virtual machine type | CPU (Central Processing Unit) |
     | Virtual machine size | Standard_DS3_v2 |
+    
+    ![The new compute instance form is displayed populated with the preceding values.](media/aml_newcomputeform-1.png "The new compute instance form")
 
 5. On the **Configure Settings** form, configure the cluster as follows, then select **Create**:
 
