@@ -1827,15 +1827,18 @@ In this exercise, you will create multiple machine learning models. You will lea
 
     ![The Azure Machine Learning Studio compute screen is displayed, with the compute instances tab selected, and the Create button highlighted.](media/aml_createcomputebutton.png "Azure Machine Learning Compute screen")
 
-3. On the **New compute instance** blade, configure it as follows, then select **Create**:
+3. On the **Select virtual machine** blade, configure it as follows, then select **Next**:
 
     | Field | Value |
     |--------------|---------------|
-    | Compute name | Globally unique value of your choice. |
     | Virtual machine type | CPU (Central Processing Unit) |
     | Virtual machine size | Standard_DS3_v2 |
 
-    ![The new compute instance form is displayed populated with the preceding values.](media/aml_newcomputeform.png "The new compute instance form")
+    ![The new compute instance form is displayed populated with the preceding values.](media/aml_newcomputeform-1.png "The new compute instance form")
+    
+4. On the **Configure Settings** blade, under Compute name enter a globally unique value of your choice and then select **Create**.
+
+    ![The new compute instance form is displayed populated with the preceding values.](media/aml_newcomputeform-2.png "The new compute instance form")
 
 4. Select the **Compute clusters** tab, and select **Create**.
 
@@ -1851,7 +1854,7 @@ In this exercise, you will create multiple machine learning models. You will lea
     | Maximum number of nodes | 3 |
     | Idle seconds before scale down | 120 |
 
-    ![The New compute cluster form is displayed with the preceding values.](media/aml_cluster_settings.png "The New compute cluster form")
+    ![The New compute cluster form is displayed with the preceding values.](media/aml_cluster_settings-1.png "The New compute cluster form")
 
 ### Task 3: Use a notebook in AML Studio to prepare data and create a Product Seasonality Classifier model using XGBoost
 
