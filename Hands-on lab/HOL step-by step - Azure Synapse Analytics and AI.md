@@ -1073,7 +1073,7 @@ In this exercise you will create a Synapse Pipeline that will orchestrate updati
 
     ![The Create New Virtual Directory form is displayed with Test entered in the name field.](media/storageexplorer_createnewvirtualdirectoryblade.png "Create New Virtual Directory form")
 
-8. From the taskbar, select **Upload**. Upload all invoices located in **Hands-on lab/artifacts/sample_invoices/Test**. These files are Invoice_6.pdf and Invoice_7.pdf.
+8. From the taskbar, select **Upload**. Upload all invoices located in **C:/LabFiles/MCW-Azure-Synapse-Analytics-and-AI-master/Hands-on lab/artifacts/sample_invoices/Test**. These files are Invoice_6.pdf and Invoice_7.pdf.
 
 9. Return to the root **invoices** folder by selecting the **invoices** breadcrumb from the location textbox found beneath the taskbar.
 
@@ -1081,7 +1081,7 @@ In this exercise you will create a Synapse Pipeline that will orchestrate updati
 
 10. From the taskbar, select **+ New Folder** once again. This time creating a folder named **Train**. This will automatically move you into the new **Train** folder.
 
-11. From the taskbar, select **Upload**. Upload all invoices located in **Hands-on lab/artifacts/sample_invoices/Train**. These files are Invoice_1.pdf, Invoice_2.pdf, Invoice_3.pdf, Invoice_4.pdf and Invoice_5.pdf.
+11. From the taskbar, select **Upload**. Upload all invoices located in **C:/LabFiles/MCW-Azure-Synapse-Analytics-and-AI-master/Hands-on lab/artifacts/sample_invoices/Train**. These files are Invoice_1.pdf, Invoice_2.pdf, Invoice_3.pdf, Invoice_4.pdf and Invoice_5.pdf.
 
 12. From the left menu, select **Access keys**.
 
@@ -1164,7 +1164,7 @@ In this exercise you will create a Synapse Pipeline that will orchestrate updati
 
 14. Open Visual Studio Code.
 
-15. From the **File** menu, select **Open file** then choose to open **Hands-on lab/artifacts/pocformreader.py**.
+15. From the **File** menu, select **Open file** then choose to open **C:/LabFiles/MCW-Azure-Synapse-Analytics-and-AI-master/Hands-on lab/artifacts/pocformreader.py**.
 
 16. Update Lines 7, 9, and 17 with the appropriate values indicated below:
 
@@ -1198,7 +1198,7 @@ In this exercise you will create a Synapse Pipeline that will orchestrate updati
 
 1. Open a new instance of Visual Studio Code.
 
-2. In Visual Studio Code open the folder **Hands-on lab/environment-setup/functions**.
+2. In Visual Studio Code open the folder **C:/LabFiles/MCW-Azure-Synapse-Analytics-and-AI-master/Hands-on lab/environment-setup/functions**.
 
    ![The file structure of the /environment-setup/functions folder is shown.](media/ex5-task1-001.png "The file structure of the functions folder")
 
@@ -1244,7 +1244,7 @@ In this exercise you will create a Synapse Pipeline that will orchestrate updati
 
 10. Now that we have the function published and all our resources created, we can create the skillset. This will be accomplished using **Postman**. Open Postman.
 
-11. From the **File** menu, select **Import** and choose to import the postman collection from **Hands-on lab/environment-setup/skillset** named **InvoiceKnowledgeStore.postman_collection.json**.
+11. From the **File** menu, select **Import** and choose to import the postman collection from **C:/LabFiles/MCW-Azure-Synapse-Analytics-and-AI-master/Hands-on lab/environment-setup/skillset** named **InvoiceKnowledgeStore.postman_collection.json**.
 
     ![The Postman File menu is expanded with the Import option selected.](media/ex5-task3-004.png "Postman File menu")
 
@@ -1403,7 +1403,7 @@ In this exercise you will create a Synapse Pipeline that will orchestrate updati
 
     ![The set properties form is displayed with the file path and import schema fields populated as described.](media/ex5-task4-025.png "Data set properties form")
 
-22. Select **Browse** and select the file located at **Hands-on lab/environment-setup/synapse/sampleformrecognizer.json** and select **OK**.
+22. Select **Browse** and select the file located at **C:/LabFiles/MCW-Azure-Synapse-Analytics-and-AI-master/Hands-on lab/environment-setup/synapse/sampleformrecognizer.json** and select **OK**.
 
     ![The Set properties form is displayed with the sampleformrecognizer.json selected as the selected file.](media/ex5-task4-026.png "Data set properties form")
 
