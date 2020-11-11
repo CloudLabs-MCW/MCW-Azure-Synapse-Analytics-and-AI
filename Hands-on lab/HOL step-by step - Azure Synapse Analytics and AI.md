@@ -895,7 +895,7 @@ When you query Parquet files using Synapse SQL Serverless, you can explore the d
 6. The Spark engine can analyze the Parquet files and infer the schema. To do this, enter the following in the new cell:
 
     ```python
-    data_path.printSchema()
+    df.printSchema()
     ```
 
     Your output should look like the following:
@@ -922,7 +922,7 @@ When you query Parquet files using Synapse SQL Serverless, you can explore the d
     from pyspark.sql.types import *
     from pyspark.sql.functions import *
 
-    profitByDateProduct = (data_path.groupBy("TransactionDate", "ProductId")
+    profitByDateProduct = (df.groupBy("TransactionDate", "ProductId")
     .agg(
     round(sum("ProfitAmount"),2).alias("(sum)Profit"),
     round(avg("ProfitAmount"),2).alias("(avg)Profit"),
