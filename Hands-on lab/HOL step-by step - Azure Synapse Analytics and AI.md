@@ -1840,16 +1840,20 @@ In this exercise, you will create multiple machine learning models. You will lea
 
     ![The new compute instance form is displayed populated with the preceding values.](media/aml_newcomputeform-2.png "The new compute instance form")
 
-4. Select the **Compute clusters** tab, and select **Create**.
+5. Select the **Compute clusters** tab, and select **Create**.
 
-5. On the **New compute cluster** form, configure the cluster as follows, then select **Create**:
+6. On the **Select virtual machine** blade, configure it as follows, then select **Next**:
+
+    | Field | Value |
+    |--------------|---------------|
+    | Virtual machine type | CPU (Central Processing Unit) |
+    | Virtual machine size | Standard_DS3_v2 |
+
+5. On the **Configure Settings** form, configure the cluster as follows, then select **Create**:
 
     | Field | Value |
     |--------------|---------------|
     | Compute name | automlcluster |
-    | Virtual machine type | CPU (Central Processing Unit) |
-    | Virtual machine priority | Dedicated |
-    | Virtual machine size | Standard_DS3_v2 |
     | Minimum number of nodes | 0 |
     | Maximum number of nodes | 3 |
     | Idle seconds before scale down | 120 |
