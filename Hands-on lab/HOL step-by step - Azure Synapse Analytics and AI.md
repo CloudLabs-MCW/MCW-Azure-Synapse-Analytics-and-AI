@@ -874,7 +874,7 @@ When you query Parquet files using Synapse SQL Serverless, you can explore the d
 
 1. Select **Data** from the left menu, select the **Linked** tab, then browse to the data lake storage account `asadatalake{SUFFIX}` to  **wwi-02/sale-small/Year=2010/Quarter=Q4/Month=12/Day=20101231**, then right-click the Parquet file and select New notebook.
 
-    ![The Parquet file is displayed with the New notebook menu item highlighted.](media/new-spark-notebook-sales.png "New notebook")
+    ![The Parquet file is displayed with the New notebook menu item highlighted.](media/new-spark-notebook-sales-1.png "New notebook")
 
 2. This will generate a notebook with PySpark code to load the data in a dataframe and display 100 rows with the header.
 
