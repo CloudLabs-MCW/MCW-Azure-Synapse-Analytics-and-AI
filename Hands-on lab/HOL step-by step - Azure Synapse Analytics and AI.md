@@ -1763,6 +1763,10 @@ In this exercise, you will create multiple machine learning models. You will lea
 
     ![The machine learning resource overview screen is selected with the Studio web URL link highlighted.](media/machinelearning_overview.png "Machine learning overview screen")
 
+3. After Launching , you will be asked to select subscription and Machine learning workspace. Select subscription from the drop-down and select machine learning workspace name starting with **amlworkspaceXXXXXX**. Click on **Get started**.
+
+    ![The machine learning resource overview screen is selected with the Studio web URL link highlighted.](media/machinelearning_overview-1.png "Machine learning overview screen")
+
 3. From the left menu of **Azure Machine Learning Studio**, select the **Datastores** item.
 
     ![The Machine Learning Studio menu is shown with the Datastores item highlighted](media/amlstudio_datastores_menu.png "AML Studio menu")
