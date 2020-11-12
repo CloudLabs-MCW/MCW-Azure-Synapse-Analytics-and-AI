@@ -1780,7 +1780,7 @@ In this exercise, you will create multiple machine learning models. You will lea
     | Server name / database name  | Select asaworkspace{{suffix}}/SQLPool01. |
     | Authentication type | SQL authentication |
     | User ID | asa.sql.admin |
-    | Password | The SQL Admin password you chose when deploying the lab resources. |
+    | Password | The SQL Admin password you can get it from the environment details page.|
 
     ![The new datastore blade is shown populated with the preceding values.](media/amlstudio_sqlpooldatasource.png "New datastore blade")
 
@@ -1796,7 +1796,7 @@ In this exercise, you will create multiple machine learning models. You will lea
 
     ![The Datastore selection form is displayed as described above.](media/amldatasetselectdatasource.png "The Datastore selection form")
 
-9. In the next **Datastore selection** form, enter the following **SQL query** and then select **Next**:
+9. In the next **Datastore selection** form, enter the following **SQL query**. Then expand the **Advanced settings** and enter **100** for the **Query timeout (seconds)** value. Select **Next**:
 
     ```sql
     SELECT  P.ProductId,P.Seasonality,S.TransactionDateId,COUNT(*) as TransactionItemsCount
@@ -1827,31 +1827,31 @@ In this exercise, you will create multiple machine learning models. You will lea
 
     ![The Azure Machine Learning Studio compute screen is displayed, with the compute instances tab selected, and the Create button highlighted.](media/aml_createcomputebutton.png "Azure Machine Learning Compute screen")
 
-3. On the **Select virtual machine** blade, configure it as follows, then select **Next**:
+3. On the **Create compute instance**, **Select virtual machine** form, configure it as follows, then select **Next**:
 
     | Field | Value |
     |--------------|---------------|
     | Virtual machine type | CPU (Central Processing Unit) |
-    | Virtual machine size | Standard_DS3_v2 |
+    | Virtual machine size | Search for and select Standard_DS3_v2 |
 
     ![The new compute instance form is displayed populated with the preceding values.](media/aml_newcomputeform-1.png "The new compute instance form")
     
-4. On the **Configure Settings** blade, under Compute name enter a globally unique value of your choice and then select **Create**.
+4. On the **Configure Settings** form, enter a globally unique **Compute name** of your choice, and select **Create**.
 
     ![The new compute instance form is displayed populated with the preceding values.](media/aml_newcomputeform-2.png "The new compute instance form")
 
 5. Select the **Compute clusters** tab, and select **Create**.
 
-6. On the **Select virtual machine** blade, configure it as follows, then select **Next**:
+6. On the **New compute cluster**, **Select virtual machine** form, configure the virtual machine as follows, then select **Next**:
 
     | Field | Value |
     |--------------|---------------|
     | Virtual machine type | CPU (Central Processing Unit) |
-    | Virtual machine size | Standard_DS3_v2 |
+    | Virtual machine size | Search for and select Standard_DS3_v2 |
     
     ![The new compute instance form is displayed populated with the preceding values.](media/aml_newcomputeform-1.png "The new compute instance form")
 
-5. On the **Configure Settings** form, configure the cluster as follows, then select **Create**:
+5. On the **Configure Settings** form, configure it as follows, then select **Create**:
 
     | Field | Value |
     |--------------|---------------|
