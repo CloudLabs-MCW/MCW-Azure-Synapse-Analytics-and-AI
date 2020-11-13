@@ -1813,7 +1813,7 @@ In this exercise, you will create multiple machine learning models. You will lea
     GROUP BY P.ProductId ,P.Seasonality,S.TransactionDateId
     ```
 
-    ![The datastore selection form is displayed populated with the preceding query.](media/aml_dataset_datastoreselectionquery.png "Dataset query details")
+    ![The datastore selection form is displayed populated with the preceding query.](media/aml_dataset_datastoreselectionquery-1.png "Dataset query details")
 
 10. The **Settings and preview** data table will be displayed after a few moments. Review this data, then select the **Next** button.
 
