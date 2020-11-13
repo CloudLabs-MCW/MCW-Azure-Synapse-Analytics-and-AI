@@ -1166,6 +1166,10 @@ In this exercise you will create a Synapse Pipeline that will orchestrate updati
 
 15. From the **File** menu, select **Open file** then choose to open **C:/LabFiles/MCW-Azure-Synapse-Analytics-and-AI-master/Hands-on lab/artifacts/pocformreader.py**.
 
+    >**Note**: If you get a pop-up saying Linter pylint is not installed, click on install. Once the installation is done switch to the tab where pocformreader.py file is open.
+    
+    ![The VS Code File menu is shown with Run selected and Start Debugging highlighted.](media/Linter.png "The VS Code File menu")
+
 16. Update Lines 7, 9, and 17 with the appropriate values indicated below:
 
     - Line 7: The endpoint of Form Recognizer Service.
